@@ -7,7 +7,7 @@
 * 学习React
 * 学习地址https://hainuo.gitbooks.io/react-webpack-cookbook/content/content/Optimizing-rebundling.html
 
-> npm run dev执行命令里面的配置信息
+## npm run dev执行命令里面的配置信息
 * webpack-dev-server - 在 localhost:8080 建立一个 Web 服务器
 * --devtool eval - 为你的代码创建源地址。当有任何报错的时候可以让你更加精确地定位到文件和行号
 * --progress - 显示合并代码进度
@@ -26,7 +26,6 @@
 4.  loader :一串”! “分开装入器
 5.  loaders :加载程序的数组作为字符串
 
-***
 
 # 常用命令
 * npm run build 开发编译，生成结果文件
