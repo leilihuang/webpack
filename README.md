@@ -19,12 +19,12 @@
 * 字体图片也可以用url-loader来加载，进行转换支持格式（.woff  .svg）
 
 # 配置信息
-> module.loaders每个项目可以有这些属性:
-1.  test :一个必须满足的条件
-2.  exclude :一个条件不能满足
-3.  include :一个必须满足的条件
-4.  loader :一串”! “分开装入器
-5.  loaders :加载程序的数组作为字符串
+###module.loaders每个项目可以有这些属性:
+1. test :一个必须满足的条件
+2. exclude :一个条件不能满足
+3. include :一个必须满足的条件
+4. loader :一串”! “分开装入器
+5. loaders :加载程序的数组作为字符串
 
 
 # 常用命令
