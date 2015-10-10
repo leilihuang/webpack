@@ -1,0 +1,54 @@
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+static/dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+node_modules/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+tmp/
+src/test.js
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+*.py[c|o]
+*.sw*
+.venv/
+
+
+.DS_Store

@@ -1,0 +1,39 @@
+{
+  "name": "leilihuang",
+  "version": "1.0.0",
+  "description": "初识webpack",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build",
+    "pro": "NODE_ENV=production webpack -p --config webpack.production.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llh520xw/webpack.git"
+  },
+  "keywords": [
+    "llh1314520xw"
+  ],
+  "author": "LLH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llh520xw/webpack/issues"
+  },
+  "homepage": "https://github.com/llh520xw/webpack#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.19.0",
+    "file-loader": "^0.8.4",
+    "html-webpack-plugin": "^1.6.2",
+    "style-loader": "^0.12.4",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "dependencies": {
+    "react": "^0.14.0"
+  }
+}
