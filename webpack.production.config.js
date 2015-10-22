@@ -15,6 +15,12 @@ module.exports={
             test:/\.jsx?$/,
             exclude:[node_modules],
             loader:'babel'
+        },{
+            test:/\.less$/,
+            loader:'style!css!less'
+        },{
+            test:/\.(png|jpg)$/,
+            loader:'url?limit=8000'
         }]
     }
 }
